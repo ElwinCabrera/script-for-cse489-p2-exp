@@ -86,88 +86,88 @@ echo ""
 
 
 echo "Running experiment 1 on 'abt'"
-./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.1 -c 0.2 -o exp1/abt/abt_l0.1c0.2
-./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.2 -c 0.2 -o exp1/abt/abt_l0.2c0.2
-./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.4 -c 0.2 -o exp1/abt/abt_l0.4c0.2
-./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.6 -c 0.2 -o exp1/abt/abt_l0.6c0.2
-./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.8 -c 0.2 -o exp1/abt/abt_l0.8c0.2
+./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.1 -c 0.2 -o exp1/abt/abt_l0.1c0.2.csv
+./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.2 -c 0.2 -o exp1/abt/abt_l0.2c0.2.csv
+./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.4 -c 0.2 -o exp1/abt/abt_l0.4c0.2.csv
+./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.6 -c 0.2 -o exp1/abt/abt_l0.6c0.2.csv
+./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.8 -c 0.2 -o exp1/abt/abt_l0.8c0.2.csv
 
 echo "Running experiment 1 on 'gbn'  (window = 10 then window = 50) "
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.1 -c 0.2 -o exp1/gbn/w10/gbn_l0.1c0.2w10
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.2 -c 0.2 -o exp1/gbn/w10/gbn_l0.2c0.2w10
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.4 -c 0.2 -o exp1/gbn/w10/gbn_l0.4c0.2w10
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.6 -c 0.2 -o exp1/gbn/w10/gbn_l0.6c0.2w10
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.8 -c 0.2 -o exp1/gbn/w10/gbn_l0.8c0.2w10
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.1 -c 0.2 -o exp1/gbn/w10/gbn_l0.1c0.2w10.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.2 -c 0.2 -o exp1/gbn/w10/gbn_l0.2c0.2w10.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.4 -c 0.2 -o exp1/gbn/w10/gbn_l0.4c0.2w10.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.6 -c 0.2 -o exp1/gbn/w10/gbn_l0.6c0.2w10.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.8 -c 0.2 -o exp1/gbn/w10/gbn_l0.8c0.2w10.csv
 
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.1 -c 0.2 -o exp1/gbn/w50/gbn_l0.1c0.2w50
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.2 -c 0.2 -o exp1/gbn/w50/gbn_l0.2c0.2w50
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.4 -c 0.2 -o exp1/gbn/w50/gbn_l0.4c0.2w50
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.6 -c 0.2 -o exp1/gbn/w50/gbn_l0.6c0.2w50
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.8 -c 0.2 -o exp1/gbn/w50/gbn_l0.8c0.2w50
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.1 -c 0.2 -o exp1/gbn/w50/gbn_l0.1c0.2w50.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.2 -c 0.2 -o exp1/gbn/w50/gbn_l0.2c0.2w50.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.4 -c 0.2 -o exp1/gbn/w50/gbn_l0.4c0.2w50.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.6 -c 0.2 -o exp1/gbn/w50/gbn_l0.6c0.2w50.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.8 -c 0.2 -o exp1/gbn/w50/gbn_l0.8c0.2w50.csv
 
 echo "Running experiment 1 on 'sr' (window = 10 then window = 50)"
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.1 -c 0.2 -o exp1/sr/w10/sr_l0.1c0.2w10
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.2 -c 0.2 -o exp1/sr/w10/sr_l0.2c0.2w10
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.4 -c 0.2 -o exp1/sr/w10/sr_l0.4c0.2w10
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.6 -c 0.2 -o exp1/sr/w10/sr_l0.6c0.2w10
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.8 -c 0.2 -o exp1/sr/w10/sr_l0.8c0.2w10
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.1 -c 0.2 -o exp1/sr/w10/sr_l0.1c0.2w10.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.2 -c 0.2 -o exp1/sr/w10/sr_l0.2c0.2w10.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.4 -c 0.2 -o exp1/sr/w10/sr_l0.4c0.2w10.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.6 -c 0.2 -o exp1/sr/w10/sr_l0.6c0.2w10.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.8 -c 0.2 -o exp1/sr/w10/sr_l0.8c0.2w10.csv
 
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.1 -c 0.2 -o exp1/sr/w50/sr_l0.1c0.2w50
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.2 -c 0.2 -o exp1/sr/w50/sr_l0.2c0.2w50
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.4 -c 0.2 -o exp1/sr/w50/sr_l0.4c0.2w50
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.6 -c 0.2 -o exp1/sr/w50/sr_l0.6c0.2w50
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.8 -c 0.2 -o exp1/sr/w50/sr_l0.8c0.2w50
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.1 -c 0.2 -o exp1/sr/w50/sr_l0.1c0.2w50.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.2 -c 0.2 -o exp1/sr/w50/sr_l0.2c0.2w50.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.4 -c 0.2 -o exp1/sr/w50/sr_l0.4c0.2w50.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.6 -c 0.2 -o exp1/sr/w50/sr_l0.6c0.2w50.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.8 -c 0.2 -o exp1/sr/w50/sr_l0.8c0.2w50.csv
 
 
 
 
 echo "Running experiment 2 on 'abt' (for loss 0.2, 0.5, and 0.8, window does not matter)"
-cp exp1/abt/abt_l0.2c0.2 exp2/abt/abt_l0.2c0.2 #duplicate exp
-./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.5 -c 0.2 -o exp2/abt/abt_l0.5c0.2
-cp exp1/abt/abt_l0.8c0.2 exp2/abt/abt_l0.8c0.2 # duplicate exp
+cp exp1/abt/abt_l0.2c0.2.csv exp2/abt/abt_l0.2c0.2.csv #duplicate exp
+./run_experiments -p $bin_path/abt -m 1000 -t 50 -w 10 -l 0.5 -c 0.2 -o exp2/abt/abt_l0.5c0.2.csv
+cp exp1/abt/abt_l0.8c0.2.csv exp2/abt/abt_l0.8c0.2.csv # duplicate exp
 
 
 
 echo "Running experiment 2 on 'gbn' (window = 10, 50, 100, 200 and 500 for loss 0.2, 0.5 and 0.8)"
-cp exp1/gbn/w10/gbn_l0.2c0.2w10 exp2/gbn/w10/gbn_l0.2c0.2w10
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.5 -c 0.2 -o exp2/gbn/w10/gbn_l0.5c0.2w10
-cp exp1/gbn/w50/gbn_l0.8c0.2w50 exp2/gbn/w50/gbn_l0.8c0.2w50
+cp exp1/gbn/w10/gbn_l0.2c0.2w10.csv exp2/gbn/w10/gbn_l0.2c0.2w10.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 10 -l 0.5 -c 0.2 -o exp2/gbn/w10/gbn_l0.5c0.2w10.csv
+cp exp1/gbn/w50/gbn_l0.8c0.2w50.csv exp2/gbn/w50/gbn_l0.8c0.2w50.csv
 
-cp exp1/gbn/w50/gbn_l0.2c0.2w50 exp2/gbn/w50/gbn_l0.2c0.2w50
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.5 -c 0.2 -o exp2/gbn/w50/gbn_l0.5c0.2w50
-cp exp1/gbn/w50/gbn_l0.8c0.2w50 exp2/gbn/w50/gbn_l0.8c0.2w50
+cp exp1/gbn/w50/gbn_l0.2c0.2w50.csv exp2/gbn/w50/gbn_l0.2c0.2w50.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 50 -l 0.5 -c 0.2 -o exp2/gbn/w50/gbn_l0.5c0.2w50.csv
+cp exp1/gbn/w50/gbn_l0.8c0.2w50.csv exp2/gbn/w50/gbn_l0.8c0.2w50.csv
 
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 100 -l 0.2 -c 0.2 -o exp2/gbn/w100/gbn_l0.2c0.2w100
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 100 -l 0.5 -c 0.2 -o exp2/gbn/w100/gbn_l0.5c0.2w100
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 100 -l 0.8 -c 0.2 -o exp2/gbn/w100/gbn_l0.8c0.2w100
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 100 -l 0.2 -c 0.2 -o exp2/gbn/w100/gbn_l0.2c0.2w100.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 100 -l 0.5 -c 0.2 -o exp2/gbn/w100/gbn_l0.5c0.2w100.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 100 -l 0.8 -c 0.2 -o exp2/gbn/w100/gbn_l0.8c0.2w100.csv
 
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 200 -l 0.2 -c 0.2 -o exp2/gbn/w200/gbn_l0.2c0.2w200
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 200 -l 0.5 -c 0.2 -o exp2/gbn/w200/gbn_l0.5c0.2w200
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 200 -l 0.8 -c 0.2 -o exp2/gbn/w200/gbn_l0.8c0.2w200
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 200 -l 0.2 -c 0.2 -o exp2/gbn/w200/gbn_l0.2c0.2w200.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 200 -l 0.5 -c 0.2 -o exp2/gbn/w200/gbn_l0.5c0.2w200.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 200 -l 0.8 -c 0.2 -o exp2/gbn/w200/gbn_l0.8c0.2w200.csv
 
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 500 -l 0.2 -c 0.2 -o exp2/gbn/w500/gbn_l0.2c0.2w500
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 500 -l 0.5 -c 0.2 -o exp2/gbn/w500/gbn_l0.5c0.2w500
-./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 500 -l 0.8 -c 0.2 -o exp2/gbn/w500/gbn_l0.8c0.2w500
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 500 -l 0.2 -c 0.2 -o exp2/gbn/w500/gbn_l0.2c0.2w500.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 500 -l 0.5 -c 0.2 -o exp2/gbn/w500/gbn_l0.5c0.2w500.csv
+./run_experiments -p $bin_path/gbn -m 1000 -t 50 -w 500 -l 0.8 -c 0.2 -o exp2/gbn/w500/gbn_l0.8c0.2w500.csv
 
 
 
 echo "Running experiment 2 on 'sr' (window = 10, 50, 100, 200, and 500 for loss 0.2, 0.5 and 0.8)"
-cp exp1/sr/w10/sr_l0.2c0.2w10 exp2/sr/w10/sr_l0.2c0.2w10
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.5 -c 0.2 -o exp2/sr/w10/sr_l0.5c0.2w10
-cp exp1/sr/w50/sr_l0.8c0.2w50 exp2/sr/w50/sr_l0.8c0.2w50
+cp exp1/sr/w10/sr_l0.2c0.2w10.csv exp2/sr/w10/sr_l0.2c0.2w10.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 10 -l 0.5 -c 0.2 -o exp2/sr/w10/sr_l0.5c0.2w10.csv
+cp exp1/sr/w50/sr_l0.8c0.2w50.csv exp2/sr/w50/sr_l0.8c0.2w50.csv
 
-cp exp1/sr/w50/sr_l0.2c0.2w50 exp2/sr/w50/sr_l0.2c0.2w50
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.5 -c 0.2 -o exp2/sr/w50/sr_l0.5c0.2w50
-cp exp1/sr/w50/sr_l0.8c0.2w50 exp2/sr/w50/sr_l0.8c0.2w50
+cp exp1/sr/w50/sr_l0.2c0.2w50.csv exp2/sr/w50/sr_l0.2c0.2w50.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 50 -l 0.5 -c 0.2 -o exp2/sr/w50/sr_l0.5c0.2w50.csv
+cp exp1/sr/w50/sr_l0.8c0.2w50.csv exp2/sr/w50/sr_l0.8c0.2w50.csv
 
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 100 -l 0.2 -c 0.2 -o exp2/sr/w100/sr_l0.2c0.2w100
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 100 -l 0.5 -c 0.2 -o exp2/sr/w100/sr_l0.5c0.2w100
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 100 -l 0.8 -c 0.2 -o exp2/sr/w100/sr_l0.8c0.2w100
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 100 -l 0.2 -c 0.2 -o exp2/sr/w100/sr_l0.2c0.2w100.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 100 -l 0.5 -c 0.2 -o exp2/sr/w100/sr_l0.5c0.2w100.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 100 -l 0.8 -c 0.2 -o exp2/sr/w100/sr_l0.8c0.2w100.csv
 
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 200 -l 0.2 -c 0.2 -o exp2/sr/w200/sr_l0.2c0.2w200
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 200 -l 0.5 -c 0.2 -o exp2/sr/w200/sr_l0.5c0.2w200
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 200 -l 0.8 -c 0.2 -o exp2/sr/w200/sr_l0.8c0.2w200
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 200 -l 0.2 -c 0.2 -o exp2/sr/w200/sr_l0.2c0.2w200.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 200 -l 0.5 -c 0.2 -o exp2/sr/w200/sr_l0.5c0.2w200.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 200 -l 0.8 -c 0.2 -o exp2/sr/w200/sr_l0.8c0.2w200.csv
 
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 500 -l 0.2 -c 0.2 -o exp2/sr/w500/sr_l0.2c0.2w500
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 500 -l 0.5 -c 0.2 -o exp2/sr/w500/sr_l0.5c0.2w500
-./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 500 -l 0.8 -c 0.2 -o exp2/sr/w500/sr_l0.8c0.2w500
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 500 -l 0.2 -c 0.2 -o exp2/sr/w500/sr_l0.2c0.2w500.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 500 -l 0.5 -c 0.2 -o exp2/sr/w500/sr_l0.5c0.2w500.csv
+./run_experiments -p $bin_path/sr -m 1000 -t 50 -w 500 -l 0.8 -c 0.2 -o exp2/sr/w500/sr_l0.8c0.2w500.csv
